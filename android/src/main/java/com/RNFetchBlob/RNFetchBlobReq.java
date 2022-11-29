@@ -775,7 +775,7 @@ public class RNFetchBlobReq extends BroadcastReceiver implements Runnable {
 
                     } catch(Exception ex) {
                         ex.printStackTrace();
-                        this.callback.invoke(ex.getLocalizedMessage(), null);
+                        //this.callback.invoke(ex.getLocalizedMessage(), null);
                     }
                 }
                 else {
